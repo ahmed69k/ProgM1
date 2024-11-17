@@ -172,6 +172,7 @@ void Game::initializeGame(Card c[]) {
 
 int main() {
 	
+	cout << "hi" << endl;
 	return 0;
 
 }
