@@ -7,6 +7,4 @@ public:
 	BonusCard();
 	BonusCard(int number);
 	~BonusCard();
-
-
 };

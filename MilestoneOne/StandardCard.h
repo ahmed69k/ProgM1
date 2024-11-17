@@ -7,7 +7,5 @@ public:
 	StandardCard();
 	StandardCard(int number);
 	~StandardCard();
-
-
 };
 

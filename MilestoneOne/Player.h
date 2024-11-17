@@ -15,5 +15,4 @@ public:
 	int getScore();
 	void setScore(int s);
 	void displayScore();
-
 };

@@ -14,7 +14,4 @@ public:
 	Card getCards();
 	void setCards(Card* cards);
 	~Deck();
-
-
-
 };

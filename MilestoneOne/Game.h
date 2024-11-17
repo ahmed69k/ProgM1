@@ -18,7 +18,5 @@ public:
 	Game(Player p, Player pp, Deck deck);
 	~Game();
 	void initializeGame(Card c[]);
-
-
 };
 

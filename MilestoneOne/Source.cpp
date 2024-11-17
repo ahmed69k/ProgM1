@@ -54,9 +54,9 @@ void Card::display() {
 }
 
 Card::~Card() {
-
 }
 //RegularCard
+
 StandardCard::StandardCard() :Card() {}
 StandardCard::StandardCard(int number) :Card(number) {}
 StandardCard::~StandardCard() {}
@@ -71,6 +71,7 @@ BonusCard::~BonusCard() {}
 
 PenaltyCard::PenaltyCard() :Card() {}
 PenaltyCard::PenaltyCard(int number) :Card(number) {}
+PenaltyCard::~PenaltyCard(){}
 
 
 //Player
