@@ -132,9 +132,9 @@ Deck::Deck() {
 		cards[i] = new PenaltyCard(8);
 		
 	}
-	for (int i = 0; i < 16; i++) {
-		cards[i]->setFace(true);
-	}
+	//for (int i = 0; i < 16; i++) {
+	//	cards[i]->setFace(true);
+	//}
 }
 
 Deck::Deck(Card** cards) {
