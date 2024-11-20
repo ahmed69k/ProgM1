@@ -4,14 +4,14 @@
 
 class Deck {
 
-	Card* cards;
+	Card** cards;
 
 public:
 	Deck();
-	Deck(Card* cards);
+	Deck(Card** cards);
 	void shuffle();
 	void displayGrid();
 	Card getCards();
-	void setCards(Card* cards);
+	void setCards(Card** cards);
 	~Deck();
 };
