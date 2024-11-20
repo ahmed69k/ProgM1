@@ -201,7 +201,7 @@ Game::~Game(){
 }
 
 void Game::initializeGame() {
-	
+	cout << "   CARD MATCHING"<<endl;
 	d->shuffle();
 	d->displayGrid();
 	p1->displayScore();
